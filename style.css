@@ -1,0 +1,66 @@
+/* Global */
+body {
+background: lightgray;
+font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+background: black;
+padding: 10px;
+position: sticky;
+top: 0;
+}
+
+.navbar a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+
+.navbar a:hover {
+color: yellow;
+}
+
+/* Profile */
+.circle {
+border-radius: 50%;
+width: 150px;
+}
+
+/* Table */
+table {
+border-collapse: collapse;
+margin: auto;
+}
+
+th, td {
+border: 1px solid black;
+padding: 10px;
+}
+
+/* Highlight */
+.highlight {
+background: yellow;
+}
+
+/* Card */
+.card {
+padding: 20px;
+margin: 20px auto;
+border: 2px solid black;
+width: 250px;
+text-align: center;
+}
+
+/* Canvas */
+canvas {
+border: 2px solid red;
+}
+
+/* Responsive */
+@media(max-width:600px) {
+body {
+background: white;
+}
+}
